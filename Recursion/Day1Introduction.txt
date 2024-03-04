@@ -1,15 +1,13 @@
----> Recursion (when a function calling itself)
+---> Recursion (when a function calls itself)
 
 f(){
 
 print(count);
 count++;
 f();
-
 }
 
-
----> StackOverFlow (when a function  calling itself infinte times then memory stack is full and cannot generate more values)
+---> StackOverFlow (when a function  calls itself infinite times then the memory stack is full and cannot generate more values)
 
 count=0;
 
@@ -27,8 +25,7 @@ f();  // In that case f() calling itself infinte times
 
 }
 
-
----> BaseCondition (when we need to stop a function from calling itself infinite times , We need to a create condition to break the recursion )
+---> BaseCondition (when we need to stop a function from calling itself infinite times, We need to a create condition to break the recursion )
 
 count=0;
 f(){
@@ -47,4 +44,17 @@ f();
 main(){
 f(); // Only prints 4 times
 }
+
+---> RecursionTree ( when we are imagining a recursion method as a form of a Tree Data Structure )
+
+        f()
+        /\
+      /     \
+    f()      f()
+   / \
+  /   \
+f()    f()
+
+
+
 
