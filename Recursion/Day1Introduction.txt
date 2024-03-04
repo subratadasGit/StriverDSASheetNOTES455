@@ -1,0 +1,50 @@
+---> Recursion (when a function calling itself)
+
+f(){
+
+print(count);
+count++;
+f();
+
+}
+
+
+---> StackOverFlow (when a function  calling itself infinte times then memory stack is full and cannot generate more values)
+
+count=0;
+
+f(){
+
+print(count);
+count++;
+f();
+
+}
+
+main(){
+
+f();  // In that case f() calling itself infinte times 
+
+}
+
+
+---> BaseCondition (when we need to stop a function from calling itself infinite times , We need to a create condition to break the recursion )
+
+count=0;
+f(){
+
+if(count == 4){
+  return ;
+ }
+
+else{
+print(count);
+count++;
+f();
+
+}
+}
+main(){
+f(); // Only prints 4 times
+}
+
