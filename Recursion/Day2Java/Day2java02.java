@@ -12,7 +12,7 @@ public class Day2java02 {
             return ;
         }
         else{
-      System.out.println("Subrata Das");
+      System.out.println(count);
       f(count+1, n);
     }
     }
@@ -22,7 +22,7 @@ public class Day2java02 {
         System.out.println("Enter Your Range to print the Numbers");
         int n = sc.nextInt();
 
-        f(0,n);
+        f(1,n);
         sc.close();
     }
     
