@@ -1,5 +1,5 @@
 
-//Print numbers 1 to N
+//Print numbers N to 1
 
 package Day2Java;
 
