@@ -5,6 +5,7 @@ package Day2Java;
 
 import java.util.Scanner;
 
+
 public class Day2java02 {
 
     static void f(int count , int n ){
